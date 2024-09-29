@@ -3,7 +3,6 @@ package telran.games;
 import telran.net.TcpClient;
 import telran.view.*;
 import java.util.*;
-import telran.net.games.service.BullsCowsService;
 public class BullsCowsClientAppl {
 
 	private static final int PORT = 5000;

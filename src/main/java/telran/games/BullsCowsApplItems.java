@@ -4,8 +4,7 @@ import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import telran.net.games.model.MoveData;
-import telran.net.games.service.BullsCowsService;
+import telran.games.model.MoveData;
 import telran.view.*;
 
 public class BullsCowsApplItems {

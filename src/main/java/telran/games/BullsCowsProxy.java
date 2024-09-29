@@ -2,15 +2,13 @@ package telran.games;
 
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.function.Function;
 import org.json.JSONObject;
 
+import telran.games.model.*;
 import telran.net.Request;
 import telran.net.TcpClient;
-import telran.net.games.model.*;
-import telran.net.games.service.BullsCowsService;
 
 public class BullsCowsProxy implements BullsCowsService {
 	TcpClient tcpClient;
